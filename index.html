@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>prof</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<script src="script.js" defer></script>
+
+	<form name="StudentInputInfo">
+		<table>
+			<tr>
+				<td colspan="2" align="center">
+					<p class="info">Расчет успеваемости студентов</p>
+				</td>
+			</tr>
+			<tr>
+				<td><p class="firstTd">Фамилия:</p></td>
+				<td><input type="text" name="surname" id="surname" size="20"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<p class="info">Оценки по предметам:</p>
+				</td>
+			</tr>
+			<tr>
+				<td><p class="firstTd">Алгебра:</p></td>
+				<td>
+					<select name="algebra">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><p class="firstTd">Геометрия:</p></td>
+				<td>
+					<select name="geometry">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><p class="firstTd">Физика:</p></td>
+				<td>
+					<select name="physics">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><p class="firstTd">История:</p></td>
+				<td>
+					<select name="history">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><p class="firstTd">Химия:</p></td>
+				<td>
+					<select name="chemistry">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input class="firstTd" type="button" name="writeInfo" value="Write" id="btn2">
+				</td>
+				<td>
+					<input class="firstTd" type="button" name="Calculate" value="Calculate" id="btn1">
+				</td>
+			</tr>
+		</table>
+	</form>
+	<table id="StudentsOutputInfo">
+		<tr>
+			<td class="colorGreen"><p class="acadmPerf" id="textEx">Отличники: (0)</p></td>
+			<td class="colorOrange"><p class="acadmPerf" id="textGood">Хорошисты: (0)</p></td>
+			<td class="colorRed"><p class="acadmPerf" id="textBad">Неуспевающие: (0)</p></td>
+		</tr>
+		<tr>
+			<td class="colorGreen"><p class="acadmPerf" id="excellentStud"> </p></td>
+			<td class="colorOrange"><p class="acadmPerf" id="goodStud"> </p></td>
+			<td class="colorRed"><p class="acadmPerf" id="badStud"> </p></td>
+		</tr>
+	</table>
+</body>
+</html>

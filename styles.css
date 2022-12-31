@@ -1,0 +1,41 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+}
+
+.firstTd {
+	margin: 10px;
+}
+
+.acadmPerf {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+#btn1, #btn2 {
+	font-size: 18px;
+	width: 100px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+.info {
+	font-size: 20px;
+}
+
+.colorGreen {
+	vertical-align: top;
+	background-color: #54FF8D;
+}
+.colorOrange {
+	vertical-align: top;
+	background-color: #FFB252;
+}
+.colorRed {
+	vertical-align: top;
+	background-color: #FF5050;
+}
